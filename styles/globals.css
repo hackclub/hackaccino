@@ -1,33 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  background-color: #fff2de;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.cherry-bomb-one-regular {
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.get-free-frap {
+  word-spacing: 0.4rem;
+}
+.spicy-rice {
+  font-family: "Spicy Rice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.subtitle_explanation {
+  color: rgba(79, 42, 14);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.44);
+
+  -webkit-text-stroke-width: 0.1vw;
+  -webkit-text-stroke-color: #fff0d8;
+}
+
+.rainbow-bg:hover {
+  animation: rainbow-bg 1s linear;
+  animation-iteration-count: infinite;
+  color: #4f2a0e;
+}
+
+.rainbow:hover {
+  animation: rainbow 1s linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rainbow-bg {
+  100%,
+  0% {
+    background-color: rgb(255, 0, 0);
+  }
+  8% {
+    background-color: rgb(255, 127, 0);
+  }
+  16% {
+    background-color: rgb(255, 255, 0);
+  }
+  25% {
+    background-color: rgb(127, 255, 0);
+  }
+  33% {
+    background-color: rgb(0, 255, 0);
+  }
+  41% {
+    background-color: rgb(0, 255, 127);
+  }
+  50% {
+    background-color: rgb(0, 255, 255);
+  }
+  58% {
+    background-color: rgb(0, 127, 255);
+  }
+  66% {
+    background-color: rgb(0, 0, 255);
+  }
+  75% {
+    background-color: rgb(127, 0, 255);
+  }
+  83% {
+    background-color: rgb(255, 0, 255);
+  }
+  91% {
+    background-color: rgb(255, 0, 127);
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@keyframes rainbow {
+  100%,
+  0% {
+    color: rgb(255, 0, 0);
+  }
+  8% {
+    color: rgb(255, 127, 0);
+  }
+  16% {
+    color: rgb(255, 255, 0);
+  }
+  25% {
+    color: rgb(127, 255, 0);
+  }
+  33% {
+    color: rgb(0, 255, 0);
+  }
+  41% {
+    color: rgb(0, 255, 127);
+  }
+  50% {
+    color: rgb(0, 255, 255);
+  }
+  58% {
+    color: rgb(0, 127, 255);
+  }
+  66% {
+    color: rgb(0, 0, 255);
+  }
+  75% {
+    color: rgb(127, 0, 255);
+  }
+  83% {
+    color: rgb(255, 0, 255);
+  }
+  91% {
+    color: rgb(255, 0, 127);
   }
 }
