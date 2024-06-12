@@ -12,7 +12,7 @@ export const WhatchaWaitingFor = () => {
 
         {/* <a href="#" className=""> */}
         <a
-          href="#"
+          href="https://forms.hackclub.com/t/vA6GrDK99Tus"
           className="max-w-xl mx-auto justify-center  text-[#FFF2DE] transition duration-750 get-free-frap text-3xl flex items-center spicy-rice rounded-xl hover:bg-[#FFF2DE] px-6 py-3 ring-4 ring-[#4F2A0E] border-2 border-[#FFF2DE] bg-[#4F2A0E] hover:text-[#4F2A0E]"
         >
           Get Started

@@ -19,7 +19,7 @@ export default function Home() {
           Make a 3D Website • Get a free Frappuccino
         </p>
         <div className="flex flex-col justify-center  md:flex-row space-x-8 mt-16">
-          <a href="#" className="">
+          <a href="https://forms.hackclub.com/t/vA6GrDK99Tus" className="">
             <div className=" text-[#FFF2DE] transition duration-750 get-free-frap text-2xl flex items-center spicy-rice rounded-full px-6 py-3 ring-4 ring-[#4F2A0E] border-2 border-[#FFF2DE] bg-[#4F2A0E] ">
               <img
                 src="https://cultofthepartyparrot.com/parrots/hd/coffeeparrot.gif"
