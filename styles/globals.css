@@ -5,7 +5,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+.logo {
+  -webkit-transform: translate3d(0, 0, 0);
+}
 :root {
   background-color: #fff2de;
 }

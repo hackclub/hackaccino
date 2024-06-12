@@ -38,10 +38,10 @@ export const Step1 = () => {
             to find more):
           </div>
         </div>
-        <div className="grid md:grid-cols-3 grid-cols-1  mx-auto gap-8">
-          <img src="/example1.jpeg" className="h-full w-auto" />
-          <img src="/example2.png" className="h-full w-auto" />
-          <img src="/example3.png" className="h-full w-auto" />
+        <div className="grid md:grid-cols-3 grid-cols-1 items-center justify-center mx-auto gap-8">
+          <img src="/example1.jpeg" className=" w-auto" />
+          <img src="/example2.png" className=" w-auto" />
+          <img src="/example3.png" className="w-auto" />
         </div>
       </span>
     </>

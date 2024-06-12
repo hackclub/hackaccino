@@ -4,10 +4,24 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import { Steps } from "@/components/Steps";
 import { WhatchaWaitingFor } from "@/components/WhatchaWaitingFor";
+import { useEffect, useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  const [isSafari, setIsSafari] = useState(false);
+
+  useEffect(() => {
+    const userAgentString = navigator.userAgent;
+    let safariAgent = userAgentString.indexOf("Safari") > -1;
+
+    let chromeAgent = userAgentString.indexOf("Chrome") > -1;
+
+    // Discard Safari since it also matches Chrome
+    if (chromeAgent && safariAgent) safariAgent = false;
+
+    setIsSafari(safariAgent);
+  }, []);
   return (
     <main>
       <a href="https://hackclub.com">
@@ -19,7 +33,10 @@ export default function Home() {
       <div
         className={`flex min-h-[70vh] justify-center overflow-x-hidden items-center flex-col items  pb-0 md:pb-0`}
       >
-        <img src="/logo.svg" className="" />
+        <img
+          src={isSafari ? "/logo_no_shadow.svg" : "/logo.svg"}
+          className="logo"
+        />
         <p className="subtitle_explanation text-xl md:text-[3vw] text-center  cherry-bomb-one-regular">
           Make a 3D Website • Get a free Frappuccino
         </p>
