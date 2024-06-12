@@ -1,7 +1,7 @@
 export const Step3 = () => {
   return (
     <>
-      <div className="flex mx-auto justify-center md:space-x-[3vw] max-w-4xl">
+      <div className="flex flex-col space-x-0 md:flex-row mx-auto justify-center  max-w-4xl">
         <div className="space-y-4">
           <div className="space-x-5 flex items-center">
             <div className="w-10 h-10 bg-[#4f2a0e] rounded-full flex justify-center items-center text-[#fff0d8] spicy-rice text-2xl">
@@ -21,7 +21,12 @@ export const Step3 = () => {
           </p>
         </div>
         {/* <DynamicComputer /> */}
-        <img src="/cropped_frap.png" className="mx-auto hover:animate-spin" />
+        <div className="flex justify-center">
+          <img
+            src="/cropped_frap.png"
+            className="mx-auto w-[30vw] my-4 md:my-0 md:w-auto hover:animate-spin"
+          />
+        </div>
       </div>
     </>
   );
