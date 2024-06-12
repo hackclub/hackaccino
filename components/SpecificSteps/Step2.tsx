@@ -32,7 +32,15 @@ export const Step2 = () => {
           </p>
         </div>
         {/* <DynamicComputer /> */}
-        <img src="/liveurl.png" className="mx-auto" />
+        <div>
+          <img
+            src="/liveurl.png"
+            className="mx-auto border-2 shadow-lg hover:shadow-2xl transition border-[#4f2a0e] rounded-lg"
+          />
+          <p className="text-gray-400 text-sm mt-2 text-center italic">
+            You'll be submitting your code and live link!
+          </p>
+        </div>
       </div>
     </>
   );
