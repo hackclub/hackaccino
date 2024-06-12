@@ -1,17 +1,18 @@
+"use client";
+
 import Image from "next/image";
 import { Inter } from "next/font/google";
+import { Steps } from "@/components/Steps";
+import { WhatchaWaitingFor } from "@/components/WhatchaWaitingFor";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <main>
-      <img
-        src="https://assets.hackclub.com/flag-orpheus-top.svg"
-        className="max-w-48 md:absolute hover:rotate-[25deg] transition"
-      />
+      <img src="/flag.svg" className="max-w-48 md:absolute transition" />
       <div
-        className={`flex min-h-screen flex-col items-center p-8 md:p-24 ${inter.className}`}
+        className={`flex min-h-[70vh] justify-center items-center flex-col items  pb-0 md:pb-0`}
       >
         <img src="/logo.svg" />
         <p className="subtitle_explanation text-lg md:text-[3vw]  cherry-bomb-one-regular">
@@ -19,12 +20,12 @@ export default function Home() {
         </p>
         <div className="flex flex-col justify-center  md:flex-row space-x-8 mt-16">
           <a href="#" className="">
-            <div className=" transition duration-750 get-free-frap text-2xl flex items-center space-x-2 spicy-rice rounded-full px-6 py-3 ring-4 ring-[#4F2A0E] border-2 border-[#FFF2DE] bg-[#4F2A0E] text-[#FFF2DE]">
+            <div className=" text-[#FFF2DE] transition duration-750 get-free-frap text-2xl flex items-center spicy-rice rounded-full px-6 py-3 ring-4 ring-[#4F2A0E] border-2 border-[#FFF2DE] bg-[#4F2A0E] ">
               <img
                 src="https://cultofthepartyparrot.com/parrots/hd/coffeeparrot.gif"
-                className="max-h-10 -mt-3"
+                className="max-h-10 -mt-3 mr-2"
               />
-              <span>Get a Free Frap</span>
+              Get a Free Frap
             </div>
           </a>
           <a href="#" className="">
@@ -33,6 +34,10 @@ export default function Home() {
             </div>
           </a>
         </div>
+      </div>
+      <div className="p-8 md:p-24 space-y-4">
+        <Steps />
+        <WhatchaWaitingFor />
       </div>
     </main>
   );

@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -7,6 +8,13 @@
 
 :root {
   background-color: #fff2de;
+}
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  color: #4f2a0e;
+  font-style: normal;
 }
 
 .cherry-bomb-one-regular {
