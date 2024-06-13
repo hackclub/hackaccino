@@ -19,7 +19,7 @@ export const Step2 = () => {
             or something like{" "}
             <a href="https://replit.com" className="underline">
               ReplIt
-            </a>
+            </a>{" "}
             and a live url where we can see it! You can do this using{" "}
             <a href="https://vercel.com" className="underline">
               Vercel
