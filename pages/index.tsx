@@ -6,6 +6,7 @@ import { Steps } from "@/components/Steps";
 import { WhatchaWaitingFor } from "@/components/WhatchaWaitingFor";
 import { useEffect, useState } from "react";
 import Head from "next/head";
+import Meta from "@/components/Meta";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,9 +26,7 @@ export default function Home() {
   }, []);
   return (
     <>
-      <Head>
-        <title>Hackaccino — Beta</title>
-      </Head>
+      <Meta />
       <main>
         <a href="https://hackclub.com">
           <img
