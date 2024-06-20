@@ -1,6 +1,7 @@
 import React from "react";
 import { Parallax } from "react-next-parallax";
 
+//@ts-ignore
 export const ShowcaseCard = ({ url, name, user, pfp, repoUrl, liveLink }) => {
   return (
     <Parallax>
