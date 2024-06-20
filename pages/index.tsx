@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <>
       <Meta />
-      <main>
+      <main className="overflow-hidden">
         <a href="https://hackclub.com">
           <img
             src="/flag.svg"
@@ -67,8 +67,8 @@ export default function Home() {
         </div>
         <div className="p-8 md:p-24 space-y-4">
           <Steps />
-          <WhatchaWaitingFor />
         </div>
+        <WhatchaWaitingFor />
       </main>
     </>
   );

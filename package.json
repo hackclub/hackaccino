@@ -13,6 +13,9 @@
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
+    "react-fast-marquee": "^1.6.4",
+    "react-next-parallax": "^0.1.0",
+    "react-parallax-tilt": "^1.7.228",
     "three": "^0.165.0"
   },
   "devDependencies": {
