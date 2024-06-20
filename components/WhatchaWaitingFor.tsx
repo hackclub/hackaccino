@@ -7,7 +7,7 @@ export const WhatchaWaitingFor = () => {
       <div className="max-w-4xl mx-auto mt-12">
         <h1 className="spicy-rice text-5xl text-center">Get a free Frap</h1>
         <p className="text-2xl text-center mt-3 mb-8">
-          Build your site, get $8 towards a frappuccino
+          Build your site, get a delicious frappuccino
         </p>
 
         {/* <a href="#" className=""> */}
