@@ -4,7 +4,7 @@ import { ShowcaseCard } from "./ShowcaseCard";
 
 export const Showcase = () => {
   return (
-    <div className="py-6 my-[4vw] -rotate-[4deg] w-[120vw] -ml-[10vw]   bg-[#4f2a0e]">
+    <div className="py-6 my-[4vw] -rotate-[4deg] w-[120vw] -ml-[15vw]   bg-[#4f2a0e]">
       <h1 className="text-center text-5xl md:text-6xl spicy-rice font-bold text-[#fff2de]">
         Showcase
       </h1>

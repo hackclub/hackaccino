@@ -1,18 +1,24 @@
+import { IdeaGenerator } from "./IdeaGenerator";
 import { Showcase } from "./Showcase";
 export const WhatchaWaitingFor = () => {
   return (
     <div>
-      <div className="px-8 md:px-24">
-        <h1 className="text-2xl italic font-lighter">
-          So, you've heard it all now...whatcha waitin' for?
-        </h1>
-        <h1 className="text-2xl italic font-lighter ml-[10%] mt-4">
-          Oh...you might not know what to build.
-        </h1>
+      <div className="text-center md:flex px-6 space-x-0 space-y-10 md:space-y-0 md:space-x-10 justify-center">
+        <div className="">
+          <h1 className="text-2xl italic font-lighter">
+            So, you've heard it all now...whatcha waitin' for?
+          </h1>
+          <h1 className="text-2xl italic font-lighter  mt-4">
+            Oh...you might not know what to build.
+          </h1>
+          <h1 className="text-2xl italic font-lighter  mt-4">
+            Try clicking our espresso machine...
+          </h1>
+        </div>
+        <IdeaGenerator />
       </div>
 
-      <Showcase />
-      <div className="max-w-4xl mx-auto mt-12 pb-8 md:pb-24">
+      <div className="max-w-4xl mx-auto mt-12 pb-8 md:pb-24 px-8">
         <h1 className="spicy-rice text-5xl text-center">Get a free Frap</h1>
         <p className="text-2xl text-center mt-3 mb-8">
           Build your site, get a delicious frappuccino
