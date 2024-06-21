@@ -4,8 +4,8 @@ import { Parallax } from "react-next-parallax";
 //@ts-ignore
 export const ShowcaseCard = ({ url, name, user, pfp, repoUrl, liveLink }) => {
   return (
-    <Parallax>
-      <a href={liveLink} target="_blank">
+    <a href={liveLink} target="_blank">
+      <Parallax>
         <div
           className="border-4 border-[#fff2de]  rounded-lg w-96 h-52 bg-center bg-cover relative"
           style={{ backgroundImage: `url(${url})` }}
@@ -23,7 +23,7 @@ export const ShowcaseCard = ({ url, name, user, pfp, repoUrl, liveLink }) => {
             </div>
           </div>
         </div>
-      </a>
-    </Parallax>
+      </Parallax>
+    </a>
   );
 };
