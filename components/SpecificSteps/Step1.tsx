@@ -10,7 +10,7 @@ export const Step1 = () => {
               1
             </div>
             <span className="text-3xl spicy-rice text-[#4f2a0e]">
-              Create a website in A-Frame
+              Create a 3D website
             </span>
           </div>
           <p className="text-xl">
@@ -23,13 +23,14 @@ export const Step1 = () => {
               getting started
             </a>{" "}
             guide to start creating amazing 3D websites with just 40 lines of
-            code!
+            code! (Note: you're not restricted just to A-Frame. Feel free to use
+            whatever you are comfortable with!)
           </p>
 
           <div className="pt-3">
             <a href="https://jams.hackclub.com/jam/3d-website" className="">
               <div className="text-[#FFF2DE] hover:scale-110 transition duration-750 text-center  text-lg md:text-2xl spicy-rice rounded-lg px-6 py-3 ring-4 ring-[#4F2A0E] border-2 border-[#FFF2DE] bg-[#4F2A0E] ">
-                Make an A-Frame Project
+                Learn how to use A-Frame
               </div>
             </a>
           </div>
