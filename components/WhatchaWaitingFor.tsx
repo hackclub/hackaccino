@@ -11,7 +11,7 @@ export const WhatchaWaitingFor = () => {
           <h1 className="text-2xl italic font-lighter  mt-4">
             Oh...you might not know what to build.
           </h1>
-          <h1 className="text-2xl italic font-lighter  mt-4">
+          <h1 className="text-3xl italic font-lighter font-bold mt-4">
             Try clicking our espresso machine...
           </h1>
         </div>
