@@ -59,11 +59,11 @@ export default function Home() {
                 Get a Free Frap
               </div>
             </a>
-            {/* <a href="https://forms.hackclub.com/t/ap3bgDMnKius" className="">
+            <a href="https://forms.hackclub.com/t/ap3bgDMnKius" className="">
               <div className="transition duration-750 get-free-frap text-lg md:text-2xl spicy-rice rounded-full px-6 py-3 ring-4 ring-[#4F2A0E] border-2 border-[#FFF2DE]  text-[#4F2A0E]">
                 Running a workshop?
               </div>
-            </a> */}
+            </a>
           </div>
         </div>
         <div className="p-8 md:p-24 space-y-4">
