@@ -5,8 +5,8 @@ const makeTitle = (title: string, name: string) =>
   title === name ? title : `${title} – ${name}`;
 
 const Meta = ({
-  title = `Hackaccino — Beta`, // page title
-  name = `Hackaccino — Beta`, // site name
+  title = `Hackaccino`, // page title
+  name = `Hackaccino`, // site name
   description = "Ship a 3D website, we ship a free frappuccino!", // page description
   image = "/link-image.png", // social card image URL
   url = "https://fraps.hackclub.com",
