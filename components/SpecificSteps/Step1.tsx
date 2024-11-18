@@ -15,7 +15,7 @@ export const Step1 = () => {
           </div>
           <p className="text-xl">
             A-Frame is an easy to use, beginner-focused web library that allows
-            you to create 3D worlds extremely quickly! Ch eck out their{" "}
+            you to create 3D worlds extremely quickly! Check out their{" "}
             <a
               href="https://jams.hackclub.com/jam/3d-website"
               className="underline"
