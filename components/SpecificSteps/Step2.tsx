@@ -8,7 +8,7 @@ export const Step2 = () => {
               2
             </div>
             <span className="text-3xl spicy-rice text-[#4f2a0e]">
-              Submit your site
+              Submit your pull request on GitHub!
             </span>
           </div>
           <p className="text-xl">
@@ -18,7 +18,7 @@ export const Step2 = () => {
             </a>{" "}
             or something like{" "}
             <a href="https://replit.com" className="underline">
-              ReplIt
+              Replit
             </a>{" "}
             and a live url where we can see it! You can do this using{" "}
             <a href="https://vercel.com" className="underline">
@@ -28,11 +28,15 @@ export const Step2 = () => {
             <a href="https://pages.github.com/" className="underline">
               GitHub Pages
             </a>
+            . Create a pull request and add a folder with your website's name to the submissions{" "}
+            <a href="https://github.com/hackclub/hackaccino" className="underline">
+            here
+            </a>
             .
           </p>
         </div>
         {/* <DynamicComputer /> */}
-        <div>
+        {/* <div>
           <img
             src="/liveurl.png"
             className="mx-auto border-2 shadow-lg hover:shadow-2xl transition border-[#4f2a0e] rounded-lg"
@@ -40,7 +44,7 @@ export const Step2 = () => {
           <p className="text-gray-400 text-sm mt-2 text-center italic">
             You'll be submitting your code and live link!
           </p>
-        </div>
+        </div> */}
       </div>
     </>
   );

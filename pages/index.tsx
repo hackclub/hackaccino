@@ -50,7 +50,7 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col justify-center  md:flex-row space-x-0 space-y-4 md:space-y-0 md:space-x-8 mt-8 md:mt-16">
-            <a href="https://forms.hackclub.com/t/vA6GrDK99Tus" className="">
+            <a href="https://github.com/hackclub/hackaccino" className="">
               <div className=" text-[#FFF2DE] transition duration-750 hover:scale-110 get-free-frap text-lg md:text-2xl flex items-center spicy-rice rounded-full px-6 py-3 ring-4 ring-[#4F2A0E] border-2 border-[#FFF2DE] bg-[#4F2A0E] ">
                 <img
                   src="https://cultofthepartyparrot.com/parrots/hd/coffeeparrot.gif"
