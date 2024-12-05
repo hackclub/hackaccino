@@ -1,5 +1,7 @@
 # Hackaccino Submissions
 
+> If you're participating in an offline Hackaccino workshop, you don't need to make a pull request. Please ask the organizer for a submission form.
+
 Create a new directory in this folder with your. Inside the directory, create a markdown file with the name `README.md` and include the following details:
 
 ---
@@ -25,10 +27,6 @@ GitHub/Replit Link: https://github.com/hackclub
 ## How many hours did you spend on this?
 
 Hours: 1
-
-## Workshop Code (if any)
-
-Code: N/A
 
 ## How did you build this?
 
