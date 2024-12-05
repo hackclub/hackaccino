@@ -14,7 +14,7 @@
 
 ## Code
 
-**GitHub/Replit Link**
+**GitHub Link**
 
 ## Hack Club Slack Display Name
 
@@ -30,6 +30,7 @@ Name:
 - [ ] This is your first time participating in Hackaccino (YSWS).
 - [ ] The README.md is placed in the `/submissions/<your-name>/` [directory](https://github.com/hackclub/hackaccino/tree/main/submissions).
 - [ ] The code you’ve provided is open-source.
+- [ ] The code you are submitting was written by you.
 - [ ] The live URL you’ve provided is working.
 
 > Thank you for your PR!
