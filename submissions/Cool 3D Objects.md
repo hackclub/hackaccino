@@ -18,7 +18,7 @@ Link: [https://beautiful-cannoli-a18d5f.netlify.app/
 ](https://beautiful-cannoli-a18d5f.netlify.app/)
 ## Code
 
-GitHub/Replit Link: https://github.com/hackclub
+GitHub/Replit Link: [https://replit.com/@314Jessica314/Cool-3D-Objects#index.html](https://replit.com/@314Jessica314/Cool-3D-Objects#index.html)
 
 ## How many hours did you spend on this?
 
