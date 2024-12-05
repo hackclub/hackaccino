@@ -14,11 +14,10 @@ Name: Cool 3D Objects
 
 ## Live Website URL
 
-Link: [https://beautiful-cannoli-a18d5f.netlify.app/
-](https://beautiful-cannoli-a18d5f.netlify.app/)
+Link: [https://acise314.github.io/ice-cream/](https://acise314.github.io/ice-cream/)
 ## Code
 
-GitHub/Replit Link: [https://replit.com/@314Jessica314/Cool-3D-Objects#index.html](https://replit.com/@314Jessica314/Cool-3D-Objects#index.html)
+GitHub/Replit Link: [https://github.com/acise314/ice-cream](https://github.com/acise314/ice-cream)
 
 ## How many hours did you spend on this?
 
