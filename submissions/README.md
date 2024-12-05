@@ -22,7 +22,7 @@ Link: https://hackclub.com
 
 ## Code
 
-GitHub/Replit Link: https://github.com/hackclub
+GitHub Link: https://github.com/hackclub
 
 ## How many hours did you spend on this?
 
