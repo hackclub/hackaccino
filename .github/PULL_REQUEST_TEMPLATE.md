@@ -14,7 +14,7 @@
 
 **What is your website about?**
 
-## Workshop Code (if any)
+## Workshop Code (if you're at a workshop)
 
 **Code**
 
