@@ -6,9 +6,17 @@
 
 <!-- A name or nickname that you want to appear as the author of the website -->
 
+## Live Website Link
+
+**Link:**
+
 ## About your website
 
 **What is your website about?**
+
+## Workshop Code (if any)
+
+**Code**
 
 ## Check off the items that are true.
 
