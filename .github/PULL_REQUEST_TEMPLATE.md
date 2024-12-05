@@ -1,5 +1,7 @@
 # Hey there! Here is your checklist for this pull request
 
+> If you're participating in an offline Hackaccino workshop, you don't need to make a pull request. Please ask the organizer for a submission form.
+
 ## Author name
 
 **Author:**
@@ -13,8 +15,6 @@
 ## About your website
 
 **What is your website about?**
-
-## Workshop Code (if you're at a workshop)
 
 **Code**
 
