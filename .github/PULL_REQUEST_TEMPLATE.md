@@ -1,6 +1,6 @@
 # Hey there! Here is your checklist for your Hackaccino submission:
 
-> If you're participating in an offline Hackaccino workshop, you don't need to make a pull request. Please ask the organizer for a submission form.
+> If you're participating in an **offline** Hackaccino workshop, you don't need to make a pull request. Please ask the organizer for a submission form.
 
 ## Author name
 
@@ -16,11 +16,11 @@
 
 **GitHub Link**
 
-## Hack Club Slack Display Name
+## Hack Club Slack ID
 
-> If you're not on Hack Club Slack, please join [here](https://hackclub.com/slack).
+> Find your Slack ID by visiting the [#what-is-my-slack channel](https://hackclub.slack.com/archives/C0159TSJVH8) on Hack Club Slack. If you're not on Hack Club Slack, please join [here](https://hackclub.com/slack).
 
-Name:
+ID:
 
 ## Check off the items that are true.
 
