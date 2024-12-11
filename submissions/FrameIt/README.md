@@ -10,11 +10,11 @@ Name: FrameIt
 
 ## Live Website URL
 
-Link: [https://hackclub.com](https://gabriele73.github.io/FrameIt/)
+Link: https://gabriele73.github.io/FrameIt/
 
 ## Code
 
-GitHub Link: [https://github.com/hackclub](https://github.com/Gabriele73/FrameIt)
+GitHub Link: https://github.com/Gabriele73/FrameIt
 
 ## How many hours did you spend on this?
 
