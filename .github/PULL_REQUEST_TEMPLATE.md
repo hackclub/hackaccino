@@ -1,3 +1,4 @@
+Please change the title to `Add <Your Webiste Title>`.
 # Hey there! Here is your checklist for your Hackaccino submission:
 
 > If you're participating in an **offline** Hackaccino workshop, you don't need to make a pull request. Please ask the organizer for a submission form.
