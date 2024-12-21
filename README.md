@@ -30,4 +30,3 @@ Make a 3D Website • Get a free Frappuccino
 ![](https://cloud-7tzb1fc08-hack-club-bot.vercel.app/1screenshot_2024-12-02_at_22.43.29.png)
 
 7. Get your PR merged!
-
