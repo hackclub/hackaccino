@@ -21,7 +21,7 @@ GitHub/Replit Link: [https://github.com/acise314/ice-cream](https://github.com/a
 
 ## How many hours did you spend on this?
 
-Hours: 1
+Hours: 3
 
 ## Workshop Code (if any)
 
@@ -29,4 +29,4 @@ Code: N/A
 
 ## How did you build this?
 
-How: Using A-Frame and by following the instructions provided on the site!
+How: Using A-Frame and HTML, by following the instructions provided on the site and using online resources!
