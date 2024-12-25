@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Solar System</title>
+  <style>
+    body { margin: 0; overflow: hidden; }
+    canvas { display: block; }
+  </style>
+</head>
+<body>
+
+  <!-- Include Three.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+  <script>
+    // Scene, Camera, and Renderer setup
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+    const renderer = new THREE.WebGLRenderer();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    document.body.appendChild(renderer.domElement);
+
+    // Lighting setup
+    const light = new THREE.PointLight(0xffffff, 1, 100);
+    light.position.set(0, 10, 0);
+    scene.add(light);
+
+    // Create the Sun (center of the solar system)
+    const sunGeometry = new THREE.SphereGeometry(5, 32, 32);
+    const sunMaterial = new THREE.MeshBasicMaterial({ color: 0xFFFF00 });
+    const sun = new THREE.Mesh(sunGeometry, sunMaterial);
+    scene.add(sun);
+
+    // Create planets (spheres)
+    const planetGeometry = new THREE.SphereGeometry(1, 32, 32);
+    const planetMaterials = [
+      new THREE.MeshPhongMaterial({ color: 0x00ff00 }), // Planet 1 (green)
+      new THREE.MeshPhongMaterial({ color: 0x0000ff }), // Planet 2 (blue)
+      new THREE.MeshPhongMaterial({ color: 0xff0000 }), // Planet 3 (red)
+    ];
+
+    const planets = [];
+    const orbits = [15, 25, 35]; // Distances from the Sun
+    const planetSpeeds = [0.01, 0.005, 0.002]; // Orbital speeds
+
+    // Add planets to the scene
+    for (let i = 0; i < 3; i++) {
+      const planet = new THREE.Mesh(planetGeometry, planetMaterials[i]);
+      planets.push(planet);
+      scene.add(planet);
+    }
+
+    // Camera positioning
+    camera.position.z = 50;
+
+    // Animation loop
+    let angle = [0, 0, 0]; // Angles for each planet's orbit
+    function animate() {
+      requestAnimationFrame(animate);
+
+      // Rotate Sun
+      sun.rotation.y += 0.01;
+
+      // Rotate and orbit planets
+      for (let i = 0; i < 3; i++) {
+        angle[i] += planetSpeeds[i];
+        planets[i].position.x = orbits[i] * Math.cos(angle[i]);
+        planets[i].position.z = orbits[i] * Math.sin(angle[i]);
+      }
+
+      renderer.render(scene, camera);
+    }
+
+    animate();
+
+    // Responsive resizing
+    window.addEventListener('resize', () => {
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+    });
+  </script>
+
+</body>
+</html>
