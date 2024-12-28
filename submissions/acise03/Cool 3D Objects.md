@@ -10,7 +10,7 @@ Author: acise03
 
 ## Website Name
 
-Name: Cool 3D Objects
+Name: Ice Cream
 
 ## Live Website URL
 
@@ -21,7 +21,7 @@ GitHub/Replit Link: [https://github.com/acise314/ice-cream](https://github.com/a
 
 ## How many hours did you spend on this?
 
-Hours: 3
+Hours: 4
 
 ## Workshop Code (if any)
 
