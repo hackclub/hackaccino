@@ -14,10 +14,10 @@ Name: Ice Cream
 
 ## Live Website URL
 
-Link: [https://acise314.github.io/ice-cream/](https://acise314.github.io/ice-cream/)
+Link: [https://acise03.github.io/ice-cream/](https://acise03.github.io/ice-cream/)
 ## Code
 
-GitHub/Replit Link: [https://github.com/acise314/ice-cream](https://github.com/acise314/ice-cream)
+GitHub/Replit Link: [https://github.com/acise03/ice-cream](https://github.com/acise03/ice-cream)
 
 ## How many hours did you spend on this?
 
