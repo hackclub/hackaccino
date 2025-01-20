@@ -22,7 +22,7 @@ Link: [Live Demo](https://ericafk0001.github.io/3d-art-gallery/)
 
 ## Code
 
-GitHub Link: [https://github.com/hackclub](https://github.com/ericafk0001/3d-art-gallery)
+GitHub Link: [Github Link](https://github.com/ericafk0001/3d-art-gallery)
 
 ## How many hours did you spend on this?
 
