@@ -20,4 +20,4 @@ Hours: 3
 
 ## How did you build this?
 
-How: found a tutorial for a simmilar bg so i followed it and a text adventure came to mind
+How: found a tutorial for a simmilar background so i followed it and a text adventure came to mind
