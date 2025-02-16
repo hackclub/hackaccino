@@ -8,11 +8,11 @@ Name: Ethan's cat!
 
 ## Live Website URL
 
-Link: https://hackclub-frap.replit.app/
+Link: https://hc-frap2.replit.app/
 
 ## Code
 
-GitHub Link: https://replit.com/@Oblivioz/Hackclub-Frap?v=1#index.html
+GitHub Link: https://replit.com/@Oblivioz/hc-frap?v=1
 
 ## How many hours did you spend on this?
 
