@@ -1,6 +1,6 @@
 Author: Abdelrahman Ahmed
 
-Name: Hack club
+Name: Cool-egypt
 
 Live website Url: https://bejewelled-shortbread-2cf0cc.netlify.app/
 
