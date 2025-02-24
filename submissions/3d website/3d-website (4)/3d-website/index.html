@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3D Website</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+</head>
+
+<body>
+  <a-scene>
+    <!-- 3D Box -->
+    <a-box id="myBox" color="blue" rotation="0 45 0" scale="2 2 2"></a-box>
+
+    <!-- Camera -->
+    <a-camera position="0 1.6 3">
+      <a-cursor></a-cursor>
+    </a-camera>
+
+    <!-- Sky Background -->
+    <a-sky color="lightblue"></a-sky>
+  </a-scene>
+
+  <script>
+    // Set dynamic position (x, y, z)
+    let x = 1, y = 2, z = -3; // Change these values as needed
+    document.getElementById("myBox").setAttribute("position", `${x} ${y} ${z}`);
+  </script>
+</body>
+
+</html>
