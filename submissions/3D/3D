@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <a-entity environment="preset: <name of the preset>">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+</head>sss
+
+<body>
+  <a-scene>
+     <a-sky color="#87CEEB"></a-sky>
+   <a-box  color="blue" ></a-box>
+  <a-sphere color='red' position='0 1.25 -5' radius='1.25''></a-sphere>
+    <a-cylinder color='green' position='1 0.75 -3' radius='0.5'
+      </a-entity>
+  </a-scene>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
