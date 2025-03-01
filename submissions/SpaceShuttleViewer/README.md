@@ -18,8 +18,11 @@ GitHub Link: [https://github.com/Nickdev8/SpaceShuttleViewer](https://github.com
 
 ## How many hours did you spend on this?
 
-Hours: 1.2
+Hours: 4.3h
 
 ## How did you build this?
 
 How: A-Frame and html/css/javascript
+
+## added from last pr
+I added earth model and enhance lighting
