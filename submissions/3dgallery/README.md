@@ -5,7 +5,7 @@ Website Name
 Name: The Gallery
 
 Live Website URL
-Link: http://novaeon.github.io/3dgallery
+Link: https://3dgallery-alpha.vercel.app/
 
 Code
 GitHub Link: https://github.com/novaeon/3dgallery
