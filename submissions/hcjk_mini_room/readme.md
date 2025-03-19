@@ -22,7 +22,7 @@ Link: illustrious-duckanoo-cf29c7.netlify.app
 
 ## Code
 
-GitHub Link: https://github.com/hackclub
+GitHub Link: https://github.com/hcjk/hackaccino/tree/main/submissions/hcjk_mini_room
 
 ## How many hours did you spend on this?
 
