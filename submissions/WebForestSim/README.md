@@ -9,7 +9,7 @@ Name: WebForestSim
 ## Live Website URL
 
 Link: https://boraayhan.github.io/WebForestSim/
-(Takes a second to load, but runs smoothly on most devices.)
+(Takes a second to load, but runs smoothly on most devices when loaded.)
 
 ## Code
 
