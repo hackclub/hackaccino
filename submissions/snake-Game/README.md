@@ -1,15 +1,33 @@
-Author: Gaurav Pandey
-Website Name
+# Hackaccino Submissions
 
-Name: Hack Club
-Live Website URL
+> If you're participating in an offline Hackaccino workshop, you don't need to make a pull request. Please ask the organizer for a submission form.
 
-Link: https://hackclub.com
-Code
+Create a new directory in this folder with your. Inside the directory, create a markdown file with the name `README.md` and include the following details:
 
-GitHub Link: https://github.com/hackclub
-How many hours did you spend on this?
+---
 
-Hours: 1
-How did you build this?
-How: Using Next.js and by following Hack Club’s Next.js workshop!
+### Author name
+
+Author: Shaan Yu
+
+<!-- A name or nickname that you want to appear as the author of the website -->
+
+## Website Name
+
+Name: Snake
+
+## Live Website URL
+
+Link: https://snakegame-hg14.onrender.com
+
+## Code
+
+GitHub Link: https://github.com/DinosaurPotato534/snakeGame
+
+## How many hours did you spend on this?
+
+Hours: 3
+
+## How did you build this?
+
+How: Myself with AFrame docs
