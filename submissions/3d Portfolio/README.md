@@ -11,7 +11,7 @@ Code
 GitHub Link: https://github.com/Hasnat4763/3D-PortFolio
 
 How many hours did you spend on this?
-Hours: 2
+Hours: 3.4 hours
 
 How did you build this?
 Using A-Frame and online searching
