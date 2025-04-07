@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ryan's 3D Website</title>
+  <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    .custom-text {
+      font-family: 'Orbitron', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <a-scene>
+    <!-- Environment -->
+    <a-sky src="#bg-img" radius="5000" position="0 0 -10"></a-sky>
+    <a-grid color="#444" position="0 0 0"></a-grid>
+    
+    <!-- Assets -->
+    <a-assets>
+      <img id="bg-img" src="https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/1024px/1f63c.png" crossorigin="anonymous">
+    </a-assets>
+
+    <!-- Personal Info -->
+    <a-text value="Welcome to Ryan's 3D Space" position="0 3.5 -4" color="#FFF" scale="3 3 3" align="center"></a-text>
+    
+    <!-- Interests Board -->
+    <a-plane position="-2.5 2 -5" rotation="0 15 0" width="2" height="2.5" color="#2196F3" text="value: My Interests & Hobbies\n\n-Coding\n-Eating\n-Minecraft; color: white; align: center; width: 1.8; wrapCount: 15" class="interactive"></a-plane>
+    
+    <!-- Skills Board -->
+    <a-plane position="2.5 2 -5" rotation="0 -15 0" width="2" height="2.5" color="#2196F3" text="value: Coding Languages\n\n-C\n-JavaScript\n-SQL\n-HTML\n-CSS\n-Python\n; color: white; align: center; width: 1.8; wrapCount: 15" class="interactive"></a-plane>
+    
+    <!-- Contact Sign -->
+    <a-entity position="0 0.7 -3">
+      <a-plane width="3" height="0.8" color="#5196F3" rotation="0 0 0">
+        <a-text value="Contact Me:" position="-1.4 0.1 0" color="white" scale="0.8 0.8 0.8"></a-text>
+        <a-text id="email-text" value="ryanguan0000@gmail.com" position="-1.4 -0.2 0" color="white" scale="0.6 0.6 0.6"></a-text>
+      </a-plane>
+    </a-entity>
+
+    <!-- Decorative Elements -->
+    <a-torus position="-2.5 0.5 -4" color="#FFD700" radius="0.5" radius-tubular="0.05" animation="property: rotation; to: 0 360 0; loop: true; dur: 8000"></a-torus>
+    <a-octahedron position="2.5 0.5 -4" color="#FF4081" radius="0.5" animation="property: rotation; to: 360 360 360; loop: true; dur: 10000"></a-octahedron>
+
+    <!-- Camera -->
+    <a-entity position="0 1.6 0">
+      <a-camera look-controls wasd-controls></a-camera>
+    </a-entity>
+  </a-scene>
+</body>
+</html>
