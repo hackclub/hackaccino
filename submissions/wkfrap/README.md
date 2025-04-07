@@ -12,7 +12,7 @@ Live Website URL
 Link: https://serene-hamster-f4a00a.netlify.app/
 
 Code
-GitHub Link: 
+GitHub Link: https://github.com/westkorean/hackaccino/blob/main/submissions/wkfrap/index.html
 
 How many hours did you spend on this?
 Hours: 2
