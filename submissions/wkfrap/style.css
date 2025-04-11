@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.custom-text {
+  font-family: 'Orbitron', sans-serif;
+  color: white; /* Default text color */
+}
+.interactive {
+  cursor: pointer; /* Show pointer on hover for interactive elements */
+}
