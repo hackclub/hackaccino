@@ -1,10 +1,10 @@
-
 <!DOCTYPE html>
 <html>
 <head>
   <title>Ryan's 3D Website</title>
   <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <style>
     .custom-text {
       font-family: 'Orbitron', sans-serif;
@@ -13,40 +13,183 @@
 </head>
 <body>
   <a-scene>
-    <!-- Environment -->
-    <a-sky src="#bg-img" radius="5000" position="0 0 -10"></a-sky>
-    <a-grid color="#444" position="0 0 0"></a-grid>
-    
-    <!-- Assets -->
     <a-assets>
-      <img id="bg-img" src="https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/1024px/1f63c.png" crossorigin="anonymous">
+      <img id="grass" src="grass.png">
+      <img id="sky" src="sky.jpg">
+      <img id="build1" src="hobbithole.png">
+      <img id="build2" src="Sprucehouse.png">
     </a-assets>
+    <a-sky src="#sky" radius="5000" position="0 0 -10"></a-sky>
+    <a-grid color="#444" position="0 0 0"></a-grid>
+    <!-- Background Music -->
+    <a-sound src="C418  - Sweden - Minecraft Volume Alpha.mp3" autoplay="true" loop="true" volume="1"></a-sound>
+    <!-- Minecraft Ocelot -->
+    <a-entity position="5 0 -15" rotation="0 -45 0" scale="3 3 3">
+      <a-box position="0 0.3 0" width="0.6" height="0.3" depth="1.2" color="#F5DEB3"></a-box>
+      <a-box position="0 0.5 0.6" width="0.4" height="0.4" depth="0.4" color="#F5DEB3"></a-box>
+      <a-box position="0.15 0.8 0.6" width="0.1" height="0.2" depth="0.1" color="#F5DEB3"></a-box>
+      <a-box position="-0.15 0.8 0.6" width="0.1" height="0.2" depth="0.1" color="#F5DEB3"></a-box>
+      <a-box position="0.2 0 0.4" width="0.1" height="0.3" depth="0.1" color="#F5DEB3"></a-box>
+      <a-box position="-0.2 0 0.4" width="0.1" height="0.3" depth="0.1" color="#F5DEB3"></a-box>
+      <a-box position="0.2 0 -0.4" width="0.1" height="0.3" depth="0.1" color="#F5DEB3"></a-box>
+      <a-box position="-0.2 0 -0.4" width="0.1" height="0.3" depth="0.1" color="#F5DEB3"></a-box>
+      <a-box position="0 0.4 -0.7" rotation="-30 0 0" width="0.1" height="0.1" depth="0.6" color="#F5DEB3"></a-box>
+      <a-box position="0.1 0.5 0.81" width="0.1" height="0.1" depth="0.01" color="#000000"></a-box>
+      <a-box position="-0.1 0.5 0.81" width="0.1" height="0.1" depth="0.01" color="#000000"></a-box>
+      <a-box position="0 0.4 0.81" width="0.1" height="0.05" depth="0.01" color="#000000"></a-box>
+      <a-box position="0.1 0.45 0" width="0.2" height="0.05" depth="0.2" color="#8B4513"></a-box>
+      <a-box position="-0.15 0.45 -0.3" width="0.15" height="0.05" depth="0.2" color="#8B4513"></a-box>
 
+    </a-entity>
+    <!-- Floor -->
+    <a-box position= "0 -5 0" width = "10000" height= "10000" depth= "1" color="#5E9D34" rotation="-90 0 0"></a-box>
+    <a-image 
+      src="#grass"
+      position="0 -4 -3"
+      rotation="-90 0 0"
+      width="50"
+      height="50">
+    </a-image>
+    <a-image 
+      src="#grass"
+      position="0 -4 -53"
+      rotation="-90 0 0"
+      width="50"
+      height="50">
+    </a-image>
+    <a-image 
+      src="#grass"
+      position="0 -4 43"
+      rotation="-90 0 0"
+      width="50"
+      height="50">
+    </a-image>
+    <a-image 
+      src="#grass"
+      position="50 -4 -3"
+      rotation="-90 0 0"
+      width="50"
+      height="50">
+    </a-image>
+    <a-image 
+      src="#grass"
+      position="-50 -4 -3"
+      rotation="-90 0 0"
+      width="50"
+      height="50">
+    </a-image>
+    <a-image 
+      src="#grass"
+      position="-50 -4 -43"
+      rotation="-90 0 0"
+      width="50"
+      height="50">
+    </a-image>
+    <a-image 
+      src="#grass"
+      position="50 -4 43"
+      rotation="-90 0 0"
+      width="50"
+      height="50">
+    </a-image>
+    <a-image 
+      src="#grass"
+      position="-50 -4 43"
+      rotation="-90 0 0"
+      width="50"
+      height="50">
+    </a-image>
+    <a-image 
+      src="#grass"
+      position="50 -4 -43"
+      rotation="-90 0 0"
+      width="50"
+      height="50">
+    </a-image>
+
+    <!-- Pictures-->
+    <a-image 
+      src="#build1"
+      position="-10 6 10"
+      rotation="0 90 0"
+      width="19.2"
+      height="10.8">
+    </a-image>
+    <a-image 
+      src="#build2"
+      position="-10 6 -10"
+      rotation="0 90 0"
+      width="19.2"
+      height="10.8">
+    </a-image>
     <!-- Personal Info -->
-    <a-text value="Welcome to Ryan's 3D Space" position="0 3.5 -4" color="#FFF" scale="3 3 3" align="center"></a-text>
-    
+    <a-text value="Welcome to Ryan's 3D Space" position="0 7 -19" color="#FFF" scale="5 5 5" align="center" class="custom-text"></a-text>
+
     <!-- Interests Board -->
-    <a-plane position="-2.5 2 -5" rotation="0 15 0" width="2" height="2.5" color="#2196F3" text="value: My Interests & Hobbies\n\n-Coding\n-Eating\n-Minecraft; color: white; align: center; width: 1.8; wrapCount: 15" class="interactive"></a-plane>
-    
+    <a-plane position="-7 2 -18" rotation="0 15 0" width="2" height="2.5" color="#2196F3" 
+             text="value: My Interests & Hobbies\n\n-Coding\n-Eating\n-Minecraft; 
+             color: white; align: center; width: 1.8; wrapCount: 15" 
+             class="interactive custom-text"></a-plane>
+
     <!-- Skills Board -->
-    <a-plane position="2.5 2 -5" rotation="0 -15 0" width="2" height="2.5" color="#2196F3" text="value: Coding Languages\n\n-C\n-JavaScript\n-SQL\n-HTML\n-CSS\n-Python\n; color: white; align: center; width: 1.8; wrapCount: 15" class="interactive"></a-plane>
-    
+    <a-plane position="-7 4 -18" rotation="0 15 0" width="2" height="2.5" color="#2196F3" 
+             text="value: Coding Languages\n\n-C\n-JavaScript\n-SQL\n-HTML\n-CSS\n-Python\n; 
+             color: white; align: center; width: 1.8; wrapCount: 15" class="interactive custom-text"></a-plane>
+    <!-- Fun Facts -->
+    <a-plane position="10 4 -9" rotation="0 -90 0" width="7" height="10" color="#2196F3" 
+       text="value: Fun Facts:\n\n- I am a 16 year old\nhighschool student\n- I live in Canada\n- I started my programming\n- Journey in August 2024\n- I want to own a cat\n in the future\n; 
+       color: white; align: center; width: 5; wrapCount: 15" class="interactive custom-        text"></a-plane>
+    <!-- Favourite Music Artists -->
+    <a-plane position="10 4 0" rotation="0 -90 0" width="8" height="6" color="#1146F3" 
+       text="value: Favourite Artists:\n\n-jssr\n-2hollis\n-nate sib\n-freemyswag\n-nettspend\n-playboi carti\n; 
+       color: white; align: left; width: 5; wrapCount: 15" class="interactive custom-        text"></a-plane>
+    <!-- Minecraft Build Pictures -->
+    <a-entity position="-10 0 -0.125" rotation="0 90 0">
+      <a-plane width="3" height="0.8" color="#5196F3" rotation="0 0 0">
+        <a-text value="Some Minecraft Builds Ive Done:" position="-1.4 0.1 0" color="white" scale="0.8 0.8     0.8"></a-text>
+        <a-text id="email-text" value="<- Hobbit Hole | Spruce House ->" position="-1.4 -0.2 0" color="white" scale="0.6 0.6 0.6"></a-text>
+      </a-plane>
+    </a-entity>
     <!-- Contact Sign -->
-    <a-entity position="0 0.7 -3">
+    <a-entity position="-7 0 -18" rotation="0 15 0">
       <a-plane width="3" height="0.8" color="#5196F3" rotation="0 0 0">
         <a-text value="Contact Me:" position="-1.4 0.1 0" color="white" scale="0.8 0.8 0.8"></a-text>
         <a-text id="email-text" value="ryanguan0000@gmail.com" position="-1.4 -0.2 0" color="white" scale="0.6 0.6 0.6"></a-text>
       </a-plane>
     </a-entity>
+    <!-- Dynamic Arrow Pointing at Contact Me Board -->
+    <a-entity position="-7 -10 -18" rotation="0 -90 0" scale="2 2 2">
+      <!-- Arrow body -->
+      <a-box position="0 0 0" width="0.05" height="1.5" depth="0.05" color="#F5DEB3"></a-box>
+      <!-- Arrowhead -->
+      <a-cone position="0 0.75 0" radius-bottom="0.2" height="0.5" color="#F5DEB3"></a-cone>
+    </a-entity>
 
-    <!-- Decorative Elements -->
-    <a-torus position="-2.5 0.5 -4" color="#FFD700" radius="0.5" radius-tubular="0.05" animation="property: rotation; to: 0 360 0; loop: true; dur: 8000"></a-torus>
-    <a-octahedron position="2.5 0.5 -4" color="#FF4081" radius="0.5" animation="property: rotation; to: 360 360 360; loop: true; dur: 10000"></a-octahedron>
+   
+    <!-- Huge Diamond Pickaxe -->
+    <a-entity position="3.5 1 -20" rotation="0 0 45" scale="9 9 9" id="diamond-pickaxe">
+      <a-box position="0 0.4 0" width="0.1" height="1.2" depth="0.1" color="#964B00"></a-box> 
+      <!-- Handle -->
+      <a-box position="0 1.1 0" width="0.5" height="0.2" depth="0.2" color="#42C6D3"></a-box>
+      <a-box position="0.25 1.05 0" width="0.2" height="0.16" depth="0.2" color="#42C6D3"></a-box>
+      <a-box position="-0.25 1.05 0" width="0.2" height="0.16" depth="0.2" color="#42C6D3"></a-box>
+      <a-box position="-0.4 1 0" width="0.2" height="0.16" depth="0.2" color="#42C6D3"></a-box>
+      <a-box position="0.4 1 0" width="0.2" height="0.16" depth="0.2" color="#42C6D3"></a-box>
+      <a-box position="0.55 0.95 0" width="0.2" height="0.15" depth="0.2" color="#42C6D3"></a-box>
+      <a-box position="-0.55 0.95 0" width="0.2" height="0.15" depth="0.2" color="#42C6D3"></a-box>
 
+      <a-box position="0.7 0.94 0" width="0.2" height="0.125" depth="0.2" color="#42C6D3"></a-box>
+      <a-box position="-0.7 0.92 0" width="0.2" height="0.09" depth="0.2" color="#42C6D3"></a-box>
+        
+    <!-- Diamond Head -->
+    </a-entity>
+    
+    
     <!-- Camera -->
     <a-entity position="0 1.6 0">
       <a-camera look-controls wasd-controls></a-camera>
     </a-entity>
   </a-scene>
-</body>
+  <script src="script.js"></script>
+</body> 
 </html>
