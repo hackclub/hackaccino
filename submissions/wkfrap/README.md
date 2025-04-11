@@ -9,13 +9,13 @@ Website Name
 Name: Ryan's 3D Website
 
 Live Website URL
-Link: https://serene-hamster-f4a00a.netlify.app/
+Link: https://heartfelt-dusk-ffcf44.netlify.app/
 
 Code
 GitHub Link: https://github.com/westkorean/hackaccino/blob/main/submissions/wkfrap/index.html
 
 How many hours did you spend on this?
-Hours: 2
+Hours: 3-4
 
 How did you build this?
 How: Using Next.js and by following Hack Club’s Next.js workshop!
