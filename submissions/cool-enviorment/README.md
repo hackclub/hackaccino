@@ -23,3 +23,7 @@ Hours: 1
 ## How did you build this?
 
 How: Using HTML, A-Frame and by following Hack Club’s Hackaccino 3D Website Making workshop!
+
+## Hack Club Slack ID 
+
+ID: U081XDZT1SR
