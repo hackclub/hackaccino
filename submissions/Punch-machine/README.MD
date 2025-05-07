@@ -14,7 +14,7 @@ Link: https://the-punch-machine.netlify.app/
 
 ## Code
 
-GitHub Link: https://github.com/hackclub
+GitHub Link: https://github.com/DukeAvi/3D-site
 
 ## How many hours did you spend on this?
 
