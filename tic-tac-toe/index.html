@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.159.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.159.0/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="game-container">
+        <div class="ui-container">
+            <div class="header">
+                <h1>3D Tic-Tac-Toe</h1>
+                <div class="score-container">
+                    <div class="score">
+                        <span class="player">Player X:</span>
+                        <span id="player-x-score">0</span>
+                    </div>
+                    <div class="score">
+                        <span class="player">Player O:</span>
+                        <span id="player-o-score">0</span>
+                    </div>
+                    <div class="score">
+                        <span class="player">Draws:</span>
+                        <span id="draws">0</span>
+                    </div>
+                </div>
+            </div>
+            <div class="game-status" id="game-status">Player X's turn</div>
+            <div class="controls">
+                <button id="new-game-btn">New Game</button>
+                <button id="undo-btn">Undo Move</button>
+                <select id="game-mode">
+                    <option value="pvp">Player vs Player</option>
+                    <option value="easy">Player vs AI (Easy)</option>
+                    <option value="medium">Player vs AI (Medium)</option>
+                    <option value="hard">Player vs AI (Hard)</option>
+                </select>
+                <button id="toggle-sound" class="icon-btn">🔊</button>
+                <button id="toggle-contrast" class="icon-btn">🎨</button>
+                <button id="toggle-dark-mode" class="icon-btn">🌓</button>
+            </div>
+        </div>
+        <div id="game-board"></div>
+    </div>
+    <div class="instructions">
+        <p>Click/tap on a cell to place your piece</p>
+        <p>Drag to rotate | Scroll to zoom</p>
+        <p>Press arrow keys + Enter for keyboard navigation</p>
+    </div>
+
+    <div class="game-overlay" id="win-screen">
+        <div class="modal">
+            <h2>🎉 Victory! 🎉</h2>
+            <p id="win-message">Player X Wins!</p>
+            <button class="modal-btn" onclick="document.getElementById('win-screen').style.display='none'">Continue</button>
+        </div>
+    </div>
+
+    <div class="game-overlay" id="lose-screen">
+        <div class="modal">
+            <h2>😔 Game Over</h2>
+            <p id="lose-message">Better luck next time!</p>
+            <button class="modal-btn" onclick="document.getElementById('lose-screen').style.display='none'">Try Again</button>
+        </div>
+    </div>
+
+    <div class="game-overlay" id="draw-screen">
+        <div class="modal">
+            <h2>🤝 It's a Draw!</h2>
+            <p>Good game, both players!</p>
+            <button class="modal-btn" onclick="document.getElementById('draw-screen').style.display='none'">Continue</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        Made with ❤️ by <a href="https://github.com/samar-d-coder" target="_blank">samar</a>
+    </div>
+
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
