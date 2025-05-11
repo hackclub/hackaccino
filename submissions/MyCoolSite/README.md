@@ -12,7 +12,7 @@ Link: https://rad-mandazi-fc338f.netlify.app/
 
 ## Code
 
-GitHub Link: [https://github.com/hackclub]([https://github.com/SquirrelEnjoyer23](https://github.com/SquirrelEnjoyer23/MyCoolSiteCode))
+GitHub Link: https://github.com/SquirrelEnjoyer23/MyCoolSiteCode
 
 ## How many hours did you spend on this?
 
