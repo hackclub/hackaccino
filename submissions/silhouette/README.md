@@ -30,3 +30,5 @@ Hours: 1
 ## How did you build this?
 
 How: Following shubhampatilsd's Hack Club tutorial!
+
+(theres formatting i ant get rid of; the links go to the correct website)
