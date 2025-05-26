@@ -31,4 +31,4 @@ Hours: 1
 
 How: Following shubhampatilsd's Hack Club tutorial!
 
-(theres formatting i ant get rid of; the links go to the correct website)
+(There is formatting on the links I cant get rid of; the links go to the correct website)
