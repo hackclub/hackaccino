@@ -19,6 +19,7 @@ GitHub Link: [https://github.com/khaled-muhammad/ChillZone](https://github.com/k
 ## How many hours did you spend on this?
 
 Hours: 2H 10M on hackatime
+![Screenshot 2025-06-14 at 6 26 27 PM](https://github.com/user-attachments/assets/003e7f1b-f5fa-4ccb-804f-8336637d3ac5)
 
 ## How did you build this?
 
