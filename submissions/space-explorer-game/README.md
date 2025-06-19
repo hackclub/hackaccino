@@ -1,31 +1,23 @@
-# Space Explorer Game
+### Author name
 
-A simple 3D space exploration game where you pilot a spaceship to visit different space locations.
+Author: Yaseen Mohamed-Abdelal
 
-## How to Play
+## Website Name
 
-1. Open `index.html` in your browser
-2. Click "Start" to begin
-3. Use these controls to fly around:
-   - WASD = Move around
-   - E = Go up
-   - Shift = Go down
-   - Q = Stabilize movement
-   - Space = Boost (uses more fuel)
+Name: Space Explorer Game
 
-## Goal
+## Live Website URL
 
-Visit all three space locations:
-- Lunar Base
-- Mars Colony
-- Space Station
+Link: [https://hackclub.com](https://space-explorer-game-nine.vercel.app/)
 
-Watch your fuel! Moving and boosting use fuel. You'll get a warning when fuel is low.
+## Code
 
-## Tips
+GitHub Link: [https://github.com/hackclub](https://github.com/Yaseen-Saad/Space-Explorer-Game/)
 
-- Use Q to stop drifting when you're near a destination
-- Save your boost for when you really need it
-- Try to find the shortest path between destinations
+## How many hours did you spend on this?
 
-That's it! Have fun exploring space! 🚀
+Hours: 15
+
+## How did you build this?
+
+How: Using Normal HTML along with some three.js
