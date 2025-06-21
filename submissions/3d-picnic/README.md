@@ -31,3 +31,5 @@ Hours: 2
 ## How did you build this?
 
 How: Using HTML and Aframe and a little bit of imgination as i didnt have a frapuccino to accompany me :(.
+
+I check off all the requirements.
