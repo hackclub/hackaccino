@@ -10,7 +10,7 @@ Name: Deep Thoughts by Potato
 
 ## Live Website URL
 
-Link: https://deepthoughtsbypotato.krishivpiduri.com
+Link: https://potatodeepthoughts.krishivpiduri.com
 
 ## Code
 
