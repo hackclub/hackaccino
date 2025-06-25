@@ -8,7 +8,7 @@ Name: Playground Fireworks
 
 ## Live Website URL
 
-Link: [https://hackclub.com](https://makrcat.github.io/a-frame-fireworks/)
+Link: [https://makrcat.github.io/a-frame-fireworks/](https://makrcat.github.io/a-frame-fireworks/)
 
 ## Code
 
