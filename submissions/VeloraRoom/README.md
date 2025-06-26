@@ -10,11 +10,11 @@ Name: VeloraRoom
 
 ## Live Website URL
 
-Link: [[https://khaled-muhammad.github.io/ChillZone](https://malak-sabry-104.github.io/My-3D-Room/)]
+Link: [[https://malak-sabry-104.github.io/My-3D-Room/](https://malak-sabry-104.github.io/My-3D-Room/)]
 
 ## Code
 
-GitHub Link: [[https://github.com/khaled-muhammad/ChillZone](https://github.com/Malak-Sabry-104/My-3D-Room.git)]
+GitHub Link: [[https://github.com/Malak-Sabry-104/My-3D-Room.git](https://github.com/Malak-Sabry-104/My-3D-Room.git)]
 
 ## How many hours did you spend on this?
 
