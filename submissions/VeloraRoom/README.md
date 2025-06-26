@@ -19,7 +19,7 @@ GitHub Link: [[https://github.com/Malak-Sabry-104/My-3D-Room.git](https://github
 ## How many hours did you spend on this?
 
 Hours: 4H 1M 49S on hackatime
-![3D Virtual Room Screenshot](./assests/screenshot.png)
+![hackatime screen time](./screenshot.png)
 
 
 ## How did you build this?
