@@ -15,7 +15,6 @@ Name: Kevin.
 ## Live Website URL
 
 Link: https://cerulean-dango-6e7b15.netlify.app/
-Password: My-Drop-Site
 
 ## Code
 
