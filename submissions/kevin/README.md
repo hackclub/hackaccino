@@ -19,7 +19,7 @@ Password: My-Drop-Site
 
 ## Code
 
-GitHub Link: [https://github.com/hackclub](https://github.com/Fastestkyo/kevin)
+GitHub Link: https://github.com/Fastestkyo/kevin
 
 ## How many hours did you spend on this?
 
