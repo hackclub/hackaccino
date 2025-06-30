@@ -35,7 +35,6 @@
 |-------------|----------------------| 
 | Move        | `W` `A` `S` `D` / Arrow Keys     | 
 | Look Around | Mouse (click & drag) | 
-| Interact    | Click    | 
 
 ---
 
