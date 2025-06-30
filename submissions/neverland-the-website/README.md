@@ -23,7 +23,7 @@
 
 ## ⚓ Live Demo
 
-🌐 **Visit:** [https://pari55051.github.io/neverland-3d](https://pari55051.github.io/neverland-3d)
+🌐 **Visit:** [https://pari55051.github.io/neverland-3d/](https://pari55051.github.io/neverland-3d/)
 
 > _Set sail directly from your browser — desktop or VR supported!_
 
