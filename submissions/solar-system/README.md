@@ -20,8 +20,9 @@ GitHub Link: https://github.com/Daniel-Geo/solar-system
 
 ## How many hours did you spend on this?
 
-Hours: 5h 14m 18s  
-![image](https://github.com/user-attachments/assets/24a238b4-5625-4694-bdbb-aae896538847)
+Hours: 10h 9m 33s  
+![image](https://github.com/user-attachments/assets/38584200-3461-4e24-9005-fe5b594c151c)
+
 
 
 ## How did you build this?
