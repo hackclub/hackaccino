@@ -6,7 +6,7 @@
 
 ---
 
-![Neverland Preview](screenshot.png)
+![Neverland Preview](https://github.com/Pari55051/neverland-3d/blob/main/screenshot.png)
 *^ Above: A glimpse of the cursed island... beware the tentacles.*
 
 ---
