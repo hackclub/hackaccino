@@ -9,15 +9,15 @@ Author: Mohammed-Assem
 
 ## Website Name
 
-Name: alien-museum
+Name: alien_museum
 
 ## Live Website URL
 
-Link: 
+Link: https://mohammed-assem.github.io/alien_museum/
 
 ## Code
 
-GitHub Link: 
+GitHub Link: https://github.com/Mohammed-Assem/alien_museum
 
 ## How many hours did you spend on this?
 
