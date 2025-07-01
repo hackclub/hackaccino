@@ -8,26 +8,25 @@ Create a new directory in this folder with your. Inside the directory, create a 
 
 ### Author name
 
-Author: Gaurav Pandey
+Author: littleinventor7
 
-<!-- A name or nickname that you want to appear as the author of the website -->
 
 ## Website Name
 
-Name: Hack Club
+Name: History of Computers
 
 ## Live Website URL
 
-Link: https://hackclub.com
+Link: https://littleinventor7.github.io/History-Of-Computers
 
 ## Code
 
-GitHub Link: https://github.com/hackclub
+GitHub Link: https://github.com/littleinventor7/History-Of-Computers
 
 ## How many hours did you spend on this?
 
-Hours: 1
+Hours: 10
 
 ## How did you build this?
 
-How: Using Next.js and by following Hack Club’s Next.js workshop!
+How: Using A-frame.
