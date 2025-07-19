@@ -40,6 +40,20 @@ export const Showcase = () => {
             }
           />
         </div>
+         <div className="pr-6">
+          <ShowcaseCard
+            name="Playground Fireworks"
+            url="https://raw.githubusercontent.com/makrcat/a-frame-fireworks/refs/heads/master/image.png"
+            user={"makrcat"}
+            pfp="https://avatars.githubusercontent.com/u/108638101?s=400&u=1af55bfb79f2d1050ae652d704a39cd53fc49270&v=4"
+            repoUrl={
+              "https://github.com/makrcat/a-frame-fireworks"
+            }
+            liveLink={
+              "https://makrcat.github.io/a-frame-fireworks/"
+            }
+          />
+        </div>
         <div className="pr-6">
           <ShowcaseCard
             name="Personal Site"
